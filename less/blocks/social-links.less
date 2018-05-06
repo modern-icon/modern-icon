@@ -1,0 +1,41 @@
+.social-links {
+  .list-reset;
+  display: flex;
+  
+  &__item {
+    margin: 0 15px;
+  }
+  
+  &__link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 2px solid @dark-gold;
+    border-radius: 50%;
+    
+    &:hover {
+      box-shadow: inset 0 0 0 3px @dark-gold;
+      
+      .social-links__bg {
+        fill: @dark-gold;
+      }
+      
+      .social-links__icon {
+        fill: transparent;
+      }
+    }
+  }
+  
+  &__svg {
+    widows: 100%;
+    height: 100%;
+  }
+  
+  &__bg {
+    fill: transparent;
+  }
+  
+  &__icon {
+    fill: @dark-gold;
+  }
+}  

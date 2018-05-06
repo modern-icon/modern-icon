@@ -1,0 +1,40 @@
+.page-main {
+  .main-font;
+  font-size: 20px;
+  line-height: 1.7;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 332px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+
+  
+  &__section {
+    padding: 0 30px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    &--col {
+      justify-content: flex-start;
+      flex-direction: column;
+    } 
+  }
+  
+  &__section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  &__event {
+    font-size: 20px;
+    text-align: center;
+    background-color: @gold;
+    border: 2px solid @dark;
+    padding: 50px;
+    margin: 0;
+    margin-bottom: 70px;
+  }
+}
